@@ -1,0 +1,61 @@
+body {
+   /* background-color: #6cc3b8;*/
+  font-family: Arial, sans-serif;
+  /*color: #333;*/
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #537b73;
+  color: #cc724f;
+  
+  padding: 20px;
+  text-align: center;
+}
+.person-name {
+    color: #dd4c1f;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 50px;
+  background: linear-gradient(to bottom right, #aedcc4 0%, #b79c9c 100%);
+}
+.about {
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #233599;
+}
+.imag {
+  margin-bottom: 3px;
+}
+.imag img {
+  margin-left: 208px;
+  margin-top: 22px;
+}
+.quote {
+  background-color: hsl(0, 17%, 63%, 0.5);
+  padding: 0.6% 4.3%;
+  font-size: 1.1rem;
+  height: 200px;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+}
+.quote li{
+    padding: 0.4%;
+}
+.footer {
+    background-color: #585757;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
